@@ -4,9 +4,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define([], factory);
 	else if(typeof exports === 'object')
-		exports["Clappr"] = factory();
+		exports["fp"] = factory();
 	else
-		root["Clappr"] = factory();
+		root["fp"] = factory();
 })(window, function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -445,9 +445,9 @@ exports.default = typeof _symbol2.default === "function" && _typeof(_iterator2.d
 
 /***/ }),
 
-/***/ "./node_modules/clappr-zepto/zepto.js":
+/***/ "./node_modules/fp-zepto/zepto.js":
 /*!********************************************!*\
-  !*** ./node_modules/clappr-zepto/zepto.js ***!
+  !*** ./node_modules/fp-zepto/zepto.js ***!
   \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -4472,9 +4472,9 @@ for(var collections = ['NodeList', 'DOMTokenList', 'MediaList', 'StyleSheetList'
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/components/container/public/style.scss":
+/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/components/container/public/style.scss":
 /*!*****************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/components/container/public/style.scss ***!
+  !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/components/container/public/style.scss ***!
   \*****************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -4491,9 +4491,9 @@ exports.push([module.i, ".container[data-container] {\n  position: absolute;\n  
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/components/core/public/style.scss":
+/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/components/core/public/style.scss":
 /*!************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/components/core/public/style.scss ***!
+  !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/components/core/public/style.scss ***!
   \************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -4503,16 +4503,16 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "[data-player] {\n  -webkit-touch-callout: none;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  -o-user-select: none;\n  user-select: none;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-transform: translate3d(0, 0, 0);\n          transform: translate3d(0, 0, 0);\n  position: relative;\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-style: normal;\n  font-weight: normal;\n  text-align: center;\n  overflow: hidden;\n  font-size: 100%;\n  font-family: \"Roboto\", \"Open Sans\", Arial, sans-serif;\n  text-shadow: 0 0 0;\n  box-sizing: border-box; }\n  [data-player] div, [data-player] span, [data-player] applet, [data-player] object, [data-player] iframe,\n  [data-player] h1, [data-player] h2, [data-player] h3, [data-player] h4, [data-player] h5, [data-player] h6, [data-player] p, [data-player] blockquote, [data-player] pre,\n  [data-player] a, [data-player] abbr, [data-player] acronym, [data-player] address, [data-player] big, [data-player] cite, [data-player] code,\n  [data-player] del, [data-player] dfn, [data-player] em, [data-player] img, [data-player] ins, [data-player] kbd, [data-player] q, [data-player] s, [data-player] samp,\n  [data-player] small, [data-player] strike, [data-player] strong, [data-player] sub, [data-player] sup, [data-player] tt, [data-player] var,\n  [data-player] b, [data-player] u, [data-player] i, [data-player] center,\n  [data-player] dl, [data-player] dt, [data-player] dd, [data-player] ol, [data-player] ul, [data-player] li,\n  [data-player] fieldset, [data-player] form, [data-player] label, [data-player] legend,\n  [data-player] table, [data-player] caption, [data-player] tbody, [data-player] tfoot, [data-player] thead, [data-player] tr, [data-player] th, [data-player] td,\n  [data-player] article, [data-player] aside, [data-player] canvas, [data-player] details, [data-player] embed,\n  [data-player] figure, [data-player] figcaption, [data-player] footer, [data-player] header, [data-player] hgroup,\n  [data-player] menu, [data-player] nav, [data-player] output, [data-player] ruby, [data-player] section, [data-player] summary,\n  [data-player] time, [data-player] mark, [data-player] audio, [data-player] video {\n    margin: 0;\n    padding: 0;\n    border: 0;\n    font: inherit;\n    font-size: 100%;\n    vertical-align: baseline; }\n  [data-player] table {\n    border-collapse: collapse;\n    border-spacing: 0; }\n  [data-player] caption, [data-player] th, [data-player] td {\n    text-align: left;\n    font-weight: normal;\n    vertical-align: middle; }\n  [data-player] q, [data-player] blockquote {\n    quotes: none; }\n    [data-player] q:before, [data-player] q:after, [data-player] blockquote:before, [data-player] blockquote:after {\n      content: \"\";\n      content: none; }\n  [data-player] a img {\n    border: none; }\n  [data-player]:focus {\n    outline: 0; }\n  [data-player] * {\n    max-width: none;\n    box-sizing: inherit;\n    float: none; }\n  [data-player] div {\n    display: block; }\n  [data-player].fullscreen {\n    width: 100% !important;\n    height: 100% !important;\n    top: 0;\n    left: 0; }\n  [data-player].nocursor {\n    cursor: none; }\n\n.clappr-style {\n  display: none !important; }\n", ""]);
+exports.push([module.i, "[data-player] {\n  -webkit-touch-callout: none;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  -o-user-select: none;\n  user-select: none;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-transform: translate3d(0, 0, 0);\n          transform: translate3d(0, 0, 0);\n  position: relative;\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-style: normal;\n  font-weight: normal;\n  text-align: center;\n  overflow: hidden;\n  font-size: 100%;\n  font-family: \"Roboto\", \"Open Sans\", Arial, sans-serif;\n  text-shadow: 0 0 0;\n  box-sizing: border-box; }\n  [data-player] div, [data-player] span, [data-player] applet, [data-player] object, [data-player] iframe,\n  [data-player] h1, [data-player] h2, [data-player] h3, [data-player] h4, [data-player] h5, [data-player] h6, [data-player] p, [data-player] blockquote, [data-player] pre,\n  [data-player] a, [data-player] abbr, [data-player] acronym, [data-player] address, [data-player] big, [data-player] cite, [data-player] code,\n  [data-player] del, [data-player] dfn, [data-player] em, [data-player] img, [data-player] ins, [data-player] kbd, [data-player] q, [data-player] s, [data-player] samp,\n  [data-player] small, [data-player] strike, [data-player] strong, [data-player] sub, [data-player] sup, [data-player] tt, [data-player] var,\n  [data-player] b, [data-player] u, [data-player] i, [data-player] center,\n  [data-player] dl, [data-player] dt, [data-player] dd, [data-player] ol, [data-player] ul, [data-player] li,\n  [data-player] fieldset, [data-player] form, [data-player] label, [data-player] legend,\n  [data-player] table, [data-player] caption, [data-player] tbody, [data-player] tfoot, [data-player] thead, [data-player] tr, [data-player] th, [data-player] td,\n  [data-player] article, [data-player] aside, [data-player] canvas, [data-player] details, [data-player] embed,\n  [data-player] figure, [data-player] figcaption, [data-player] footer, [data-player] header, [data-player] hgroup,\n  [data-player] menu, [data-player] nav, [data-player] output, [data-player] ruby, [data-player] section, [data-player] summary,\n  [data-player] time, [data-player] mark, [data-player] audio, [data-player] video {\n    margin: 0;\n    padding: 0;\n    border: 0;\n    font: inherit;\n    font-size: 100%;\n    vertical-align: baseline; }\n  [data-player] table {\n    border-collapse: collapse;\n    border-spacing: 0; }\n  [data-player] caption, [data-player] th, [data-player] td {\n    text-align: left;\n    font-weight: normal;\n    vertical-align: middle; }\n  [data-player] q, [data-player] blockquote {\n    quotes: none; }\n    [data-player] q:before, [data-player] q:after, [data-player] blockquote:before, [data-player] blockquote:after {\n      content: \"\";\n      content: none; }\n  [data-player] a img {\n    border: none; }\n  [data-player]:focus {\n    outline: 0; }\n  [data-player] * {\n    max-width: none;\n    box-sizing: inherit;\n    float: none; }\n  [data-player] div {\n    display: block; }\n  [data-player].fullscreen {\n    width: 100% !important;\n    height: 100% !important;\n    top: 0;\n    left: 0; }\n  [data-player].nocursor {\n    cursor: none; }\n\n.fp-style {\n  display: none !important; }\n", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/playbacks/base_flash_playback/public/flash.scss":
+/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/playbacks/base_flash_playback/public/flash.scss":
 /*!**************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/playbacks/base_flash_playback/public/flash.scss ***!
+  !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/playbacks/base_flash_playback/public/flash.scss ***!
   \**************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -4522,16 +4522,16 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".clappr-flash-playback[data-flash-playback] {\n  display: block;\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 100%;\n  width: 100%;\n  pointer-events: none; }\n", ""]);
+exports.push([module.i, ".fp-flash-playback[data-flash-playback] {\n  display: block;\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 100%;\n  width: 100%;\n  pointer-events: none; }\n", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/playbacks/html5_video/public/style.scss":
+/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/playbacks/html5_video/public/style.scss":
 /*!******************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/playbacks/html5_video/public/style.scss ***!
+  !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/playbacks/html5_video/public/style.scss ***!
   \******************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -4548,9 +4548,9 @@ exports.push([module.i, "[data-html5-video] {\n  position: absolute;\n  height: 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/playbacks/html_img/public/style.scss":
+/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/playbacks/html_img/public/style.scss":
 /*!***************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/playbacks/html_img/public/style.scss ***!
+  !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/playbacks/html_img/public/style.scss ***!
   \***************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -4567,9 +4567,9 @@ exports.push([module.i, "[data-html-img] {\n  max-width: 100%;\n  max-height: 10
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/playbacks/no_op/public/style.scss":
+/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/playbacks/no_op/public/style.scss":
 /*!************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/playbacks/no_op/public/style.scss ***!
+  !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/playbacks/no_op/public/style.scss ***!
   \************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -4586,9 +4586,9 @@ exports.push([module.i, "[data-no-op] {\n  position: absolute;\n  height: 100%;\
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/plugins/closed_captions/public/closed_captions.scss":
+/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/plugins/closed_captions/public/closed_captions.scss":
 /*!******************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/plugins/closed_captions/public/closed_captions.scss ***!
+  !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/plugins/closed_captions/public/closed_captions.scss ***!
   \******************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -4605,9 +4605,9 @@ exports.push([module.i, ".cc-controls[data-cc-controls] {\n  float: right;\n  po
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/plugins/dvr_controls/public/dvr_controls.scss":
+/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/plugins/dvr_controls/public/dvr_controls.scss":
 /*!************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/plugins/dvr_controls/public/dvr_controls.scss ***!
+  !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/plugins/dvr_controls/public/dvr_controls.scss ***!
   \************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -4624,9 +4624,9 @@ exports.push([module.i, ".dvr-controls[data-dvr-controls] {\n  display: inline-b
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/plugins/error_screen/public/error_screen.scss":
+/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/plugins/error_screen/public/error_screen.scss":
 /*!************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/plugins/error_screen/public/error_screen.scss ***!
+  !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/plugins/error_screen/public/error_screen.scss ***!
   \************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -4643,9 +4643,9 @@ exports.push([module.i, "div.player-error-screen {\n  -webkit-font-smoothing: an
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/plugins/media_control/public/media-control.scss":
+/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/plugins/media_control/public/media-control.scss":
 /*!**************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/plugins/media_control/public/media-control.scss ***!
+  !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/plugins/media_control/public/media-control.scss ***!
   \**************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -4663,9 +4663,9 @@ exports.push([module.i, ".media-control-notransition {\n  transition: none !impo
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/plugins/poster/public/poster.scss":
+/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/plugins/poster/public/poster.scss":
 /*!************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/plugins/poster/public/poster.scss ***!
+  !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/plugins/poster/public/poster.scss ***!
   \************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -4682,9 +4682,9 @@ exports.push([module.i, ".player-poster[data-poster] {\n  display: -webkit-box;\
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/plugins/seek_time/public/seek_time.scss":
+/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/plugins/seek_time/public/seek_time.scss":
 /*!******************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/plugins/seek_time/public/seek_time.scss ***!
+  !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/plugins/seek_time/public/seek_time.scss ***!
   \******************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -4701,9 +4701,9 @@ exports.push([module.i, ".seek-time[data-seek-time] {\n  position: absolute;\n  
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/plugins/spinner_three_bounce/public/spinner.scss":
+/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/plugins/spinner_three_bounce/public/spinner.scss":
 /*!***************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/plugins/spinner_three_bounce/public/spinner.scss ***!
+  !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/plugins/spinner_three_bounce/public/spinner.scss ***!
   \***************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -4720,9 +4720,9 @@ exports.push([module.i, ".spinner-three-bounce[data-spinner] {\n  position: abso
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/plugins/watermark/public/watermark.scss":
+/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/plugins/watermark/public/watermark.scss":
 /*!******************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/plugins/watermark/public/watermark.scss ***!
+  !*** ./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/plugins/watermark/public/watermark.scss ***!
   \******************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -4732,7 +4732,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".clappr-watermark[data-watermark] {\n  position: absolute;\n  min-width: 70px;\n  max-width: 200px;\n  width: 12%;\n  text-align: center;\n  z-index: 10; }\n\n.clappr-watermark[data-watermark] a {\n  outline: none;\n  cursor: pointer; }\n\n.clappr-watermark[data-watermark] img {\n  max-width: 100%; }\n\n.clappr-watermark[data-watermark-bottom-left] {\n  bottom: 10px;\n  left: 10px; }\n\n.clappr-watermark[data-watermark-bottom-right] {\n  bottom: 10px;\n  right: 42px; }\n\n.clappr-watermark[data-watermark-top-left] {\n  top: 10px;\n  left: 10px; }\n\n.clappr-watermark[data-watermark-top-right] {\n  top: 10px;\n  right: 37px; }\n", ""]);
+exports.push([module.i, ".fp-watermark[data-watermark] {\n  position: absolute;\n  min-width: 70px;\n  max-width: 200px;\n  width: 12%;\n  text-align: center;\n  z-index: 10; }\n\n.fp-watermark[data-watermark] a {\n  outline: none;\n  cursor: pointer; }\n\n.fp-watermark[data-watermark] img {\n  max-width: 100%; }\n\n.fp-watermark[data-watermark-bottom-left] {\n  bottom: 10px;\n  left: 10px; }\n\n.fp-watermark[data-watermark-bottom-right] {\n  bottom: 10px;\n  right: 42px; }\n\n.fp-watermark[data-watermark-top-left] {\n  top: 10px;\n  left: 10px; }\n\n.fp-watermark[data-watermark-top-right] {\n  top: 10px;\n  right: 37px; }\n", ""]);
 
 // exports
 
@@ -28062,9 +28062,9 @@ var _error_mixin = __webpack_require__(/*! ./error_mixin */ "./src/base/error_mi
 
 var _error_mixin2 = _interopRequireDefault(_error_mixin);
 
-var _clapprZepto = __webpack_require__(/*! clappr-zepto */ "./node_modules/clappr-zepto/zepto.js");
+var _fpZepto = __webpack_require__(/*! fp-zepto */ "./node_modules/fp-zepto/zepto.js");
 
-var _clapprZepto2 = _interopRequireDefault(_clapprZepto);
+var _fpZepto2 = _interopRequireDefault(_fpZepto);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28304,7 +28304,7 @@ var Playback = function (_UIObject) {
 
 
   Playback.prototype.configure = function configure(options) {
-    this._options = _clapprZepto2.default.extend(this._options, options);
+    this._options = _fpZepto2.default.extend(this._options, options);
   };
 
   /**
@@ -28531,9 +28531,9 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _clapprZepto = __webpack_require__(/*! clappr-zepto */ "./node_modules/clappr-zepto/zepto.js");
+var _fpZepto = __webpack_require__(/*! fp-zepto */ "./node_modules/fp-zepto/zepto.js");
 
-var _clapprZepto2 = _interopRequireDefault(_clapprZepto);
+var _fpZepto2 = _interopRequireDefault(_fpZepto);
 
 var _template = __webpack_require__(/*! ./template */ "./src/base/template.js");
 
@@ -28549,7 +28549,7 @@ var Styler = {
   getStyleFor: function getStyleFor(style) {
     var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : { baseUrl: '' };
 
-    return (0, _clapprZepto2.default)('<style class="clappr-style"></style>').html((0, _template2.default)(style.toString())(options));
+    return (0, _fpZepto2.default)('<style class="fp-style"></style>').html((0, _template2.default)(style.toString())(options));
   }
 };
 
@@ -29015,9 +29015,9 @@ var _inherits2 = __webpack_require__(/*! babel-runtime/helpers/inherits */ "./no
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
-var _clapprZepto = __webpack_require__(/*! clappr-zepto */ "./node_modules/clappr-zepto/zepto.js");
+var _fpZepto = __webpack_require__(/*! fp-zepto */ "./node_modules/fp-zepto/zepto.js");
 
-var _clapprZepto2 = _interopRequireDefault(_clapprZepto);
+var _fpZepto2 = _interopRequireDefault(_fpZepto);
 
 var _utils = __webpack_require__(/*! ./utils */ "./src/base/utils.js");
 
@@ -29197,7 +29197,7 @@ var UIObject = function (_BaseObject) {
 
   UIObject.prototype.setElement = function setElement(element, delegate) {
     if (this.$el) this.undelegateEvents();
-    this.$el = _clapprZepto2.default.zepto.isZ(element) ? element : (0, _clapprZepto2.default)(element);
+    this.$el = _fpZepto2.default.zepto.isZ(element) ? element : (0, _fpZepto2.default)(element);
     this.el = this.$el[0];
     if (delegate !== false) this.delegateEvents();
     return this;
@@ -29249,7 +29249,7 @@ var UIObject = function (_BaseObject) {
 
   UIObject.prototype._ensureElement = function _ensureElement() {
     if (!this.el) {
-      var attrs = _clapprZepto2.default.extend({}, this.attributes);
+      var attrs = _fpZepto2.default.extend({}, this.attributes);
       if (this.id) attrs.id = this.id;
       if (this.className) attrs['class'] = this.className;
       var $el = _utils.DomRecycler.create(this.tagName).attr(attrs);
@@ -29329,9 +29329,9 @@ var _browser = __webpack_require__(/*! ../components/browser */ "./src/component
 
 var _browser2 = _interopRequireDefault(_browser);
 
-var _clapprZepto = __webpack_require__(/*! clappr-zepto */ "./node_modules/clappr-zepto/zepto.js");
+var _fpZepto = __webpack_require__(/*! fp-zepto */ "./node_modules/fp-zepto/zepto.js");
 
-var _clapprZepto2 = _interopRequireDefault(_clapprZepto);
+var _fpZepto2 = _interopRequireDefault(_fpZepto);
 
 var _media = __webpack_require__(/*! ./media */ "./src/base/media.js");
 
@@ -29443,7 +29443,7 @@ var Config = exports.Config = function () {
   };
 
   Config._createKeyspace = function _createKeyspace(key) {
-    return 'clappr.' + document.domain + '.' + key;
+    return 'fp.' + document.domain + '.' + key;
   };
 
   Config.restore = function restore(key) {
@@ -29633,13 +29633,13 @@ var DomRecycler = exports.DomRecycler = function () {
   }
 
   DomRecycler.configure = function configure(options) {
-    this.options = _clapprZepto2.default.extend(this.options, options);
+    this.options = _fpZepto2.default.extend(this.options, options);
   };
 
   DomRecycler.create = function create(name) {
     if (this.options.recycleVideo && name === 'video' && videoStack.length > 0) return videoStack.shift();
 
-    return (0, _clapprZepto2.default)('<' + name + '>');
+    return (0, _fpZepto2.default)('<' + name + '>');
   };
 
   DomRecycler.garbage = function garbage($el) {
@@ -29726,9 +29726,9 @@ var _getIterator2 = __webpack_require__(/*! babel-runtime/core-js/get-iterator *
 
 var _getIterator3 = _interopRequireDefault(_getIterator2);
 
-var _clapprZepto = __webpack_require__(/*! clappr-zepto */ "./node_modules/clappr-zepto/zepto.js");
+var _fpZepto = __webpack_require__(/*! fp-zepto */ "./node_modules/fp-zepto/zepto.js");
 
-var _clapprZepto2 = _interopRequireDefault(_clapprZepto);
+var _fpZepto2 = _interopRequireDefault(_fpZepto);
 
 var _browser_data = __webpack_require__(/*! ./browser_data */ "./src/components/browser/browser_data.js");
 
@@ -29744,8 +29744,8 @@ var Browser = {};
 
 var hasLocalstorage = function hasLocalstorage() {
   try {
-    localStorage.setItem('clappr', 'clappr');
-    localStorage.removeItem('clappr');
+    localStorage.setItem('fp', 'fp');
+    localStorage.removeItem('fp');
     return true;
   } catch (e) {
     return false;
@@ -29928,8 +29928,8 @@ var setOsVersion = function setOsVersion(version, separator, osObject) {
 var getViewportSize = exports.getViewportSize = function getViewportSize() {
   var viewportObject = {};
 
-  viewportObject.width = (0, _clapprZepto2.default)(window).width();
-  viewportObject.height = (0, _clapprZepto2.default)(window).height();
+  viewportObject.width = (0, _fpZepto2.default)(window).width();
+  viewportObject.height = (0, _fpZepto2.default)(window).height();
 
   return viewportObject;
 };
@@ -30350,9 +30350,9 @@ var _utils = __webpack_require__(/*! ../../base/utils */ "./src/base/utils.js");
 
 __webpack_require__(/*! ./public/style.scss */ "./src/components/container/public/style.scss");
 
-var _clapprZepto = __webpack_require__(/*! clappr-zepto */ "./node_modules/clappr-zepto/zepto.js");
+var _fpZepto = __webpack_require__(/*! fp-zepto */ "./node_modules/fp-zepto/zepto.js");
 
-var _clapprZepto2 = _interopRequireDefault(_clapprZepto);
+var _fpZepto2 = _interopRequireDefault(_fpZepto);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -30507,7 +30507,7 @@ var Container = function (_UIObject) {
     _this.volume = 100;
     _this.playback = options.playback;
     _this.playerError = playerError;
-    _this.settings = _clapprZepto2.default.extend({}, _this.playback.settings);
+    _this.settings = _fpZepto2.default.extend({}, _this.playback.settings);
     _this.isReady = false;
     _this.mediaControlDisabled = false;
     _this.plugins = [_this.playback];
@@ -30896,7 +30896,7 @@ var Container = function (_UIObject) {
 
 
   Container.prototype.configure = function configure(options) {
-    this._options = _clapprZepto2.default.extend(this._options, options);
+    this._options = _fpZepto2.default.extend(this._options, options);
     this.updateStyle();
     this.playback.configure(this.options);
     this.trigger(_events2.default.CONTAINER_OPTIONS_CHANGE);
@@ -30952,7 +30952,7 @@ module.exports = exports['default'];
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/postcss-loader/lib!../../../../node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./style.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/components/container/public/style.scss");
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/postcss-loader/lib!../../../../node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./style.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/components/container/public/style.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -31020,9 +31020,9 @@ var _container = __webpack_require__(/*! ../../components/container */ "./src/co
 
 var _container2 = _interopRequireDefault(_container);
 
-var _clapprZepto = __webpack_require__(/*! clappr-zepto */ "./node_modules/clappr-zepto/zepto.js");
+var _fpZepto = __webpack_require__(/*! fp-zepto */ "./node_modules/fp-zepto/zepto.js");
 
-var _clapprZepto2 = _interopRequireDefault(_clapprZepto);
+var _fpZepto2 = _interopRequireDefault(_fpZepto);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -31060,7 +31060,7 @@ var ContainerFactory = function (_BaseObject) {
   ContainerFactory.prototype.createContainers = function createContainers() {
     var _this2 = this;
 
-    return _clapprZepto2.default.Deferred(function (promise) {
+    return _fpZepto2.default.Deferred(function (promise) {
       promise.resolve(_this2.options.sources.map(function (source) {
         return _this2.createContainer(source);
       }));
@@ -31085,17 +31085,17 @@ var ContainerFactory = function (_BaseObject) {
 
     if (resolvedSource.match(/^\/\//)) resolvedSource = window.location.protocol + resolvedSource;
 
-    var options = _clapprZepto2.default.extend({}, this.options, {
+    var options = _fpZepto2.default.extend({}, this.options, {
       src: resolvedSource,
       mimeType: mimeType
     });
     var playbackPlugin = this.findPlaybackPlugin(resolvedSource, mimeType);
     var playback = new playbackPlugin(options, this._i18n, this.playerError);
 
-    options = _clapprZepto2.default.extend({}, options, { playback: playback });
+    options = _fpZepto2.default.extend({}, options, { playback: playback });
 
     var container = new _container2.default(options, this._i18n, this.playerError);
-    var defer = _clapprZepto2.default.Deferred();
+    var defer = _fpZepto2.default.Deferred();
     defer.promise(container);
     this.addContainerPlugins(container);
     this.listenToOnce(container, _events2.default.CONTAINER_READY, function () {
@@ -31219,9 +31219,9 @@ var _error_mixin = __webpack_require__(/*! ../../base/error_mixin */ "./src/base
 
 var _error_mixin2 = _interopRequireDefault(_error_mixin);
 
-var _clapprZepto = __webpack_require__(/*! clappr-zepto */ "./node_modules/clappr-zepto/zepto.js");
+var _fpZepto = __webpack_require__(/*! fp-zepto */ "./node_modules/fp-zepto/zepto.js");
 
-var _clapprZepto2 = _interopRequireDefault(_clapprZepto);
+var _fpZepto2 = _interopRequireDefault(_fpZepto);
 
 __webpack_require__(/*! ./public/style.scss */ "./src/components/core/public/style.scss");
 
@@ -31362,10 +31362,10 @@ var Core = function (_UIObject) {
     _this._boundFullscreenHandler = function () {
       return _this.handleFullscreenChange();
     };
-    (0, _clapprZepto2.default)(document).bind('fullscreenchange', _this._boundFullscreenHandler);
-    (0, _clapprZepto2.default)(document).bind('MSFullscreenChange', _this._boundFullscreenHandler);
-    (0, _clapprZepto2.default)(document).bind('mozfullscreenchange', _this._boundFullscreenHandler);
-    _browser2.default.isMobile && (0, _clapprZepto2.default)(window).bind('resize', function (o) {
+    (0, _fpZepto2.default)(document).bind('fullscreenchange', _this._boundFullscreenHandler);
+    (0, _fpZepto2.default)(document).bind('MSFullscreenChange', _this._boundFullscreenHandler);
+    (0, _fpZepto2.default)(document).bind('mozfullscreenchange', _this._boundFullscreenHandler);
+    _browser2.default.isMobile && (0, _fpZepto2.default)(window).bind('resize', function (o) {
       _this.handleWindowResize(o);
     });
     return _this;
@@ -31377,7 +31377,7 @@ var Core = function (_UIObject) {
   };
 
   Core.prototype.createContainers = function createContainers(options) {
-    this.defer = _clapprZepto2.default.Deferred();
+    this.defer = _fpZepto2.default.Deferred();
     this.defer.promise(this);
     this.containerFactory = new _container_factory2.default(options, options.loader, this.i18n, this.playerError);
     this.prepareContainers();
@@ -31402,14 +31402,14 @@ var Core = function (_UIObject) {
       this.$el.addClass('fullscreen');
       this.$el.removeAttr('style');
       this.playerInfo.previousSize = { width: this.options.width, height: this.options.height };
-      this.playerInfo.currentSize = { width: (0, _clapprZepto2.default)(window).width(), height: (0, _clapprZepto2.default)(window).height() };
+      this.playerInfo.currentSize = { width: (0, _fpZepto2.default)(window).width(), height: (0, _fpZepto2.default)(window).height() };
     }
   };
 
   Core.prototype.setPlayerSize = function setPlayerSize() {
     this.$el.removeClass('fullscreen');
     this.playerInfo.currentSize = this.playerInfo.previousSize;
-    this.playerInfo.previousSize = { width: (0, _clapprZepto2.default)(window).width(), height: (0, _clapprZepto2.default)(window).height() };
+    this.playerInfo.previousSize = { width: (0, _fpZepto2.default)(window).width(), height: (0, _fpZepto2.default)(window).height() };
     this.resize(this.playerInfo.currentSize);
   };
 
@@ -31456,7 +31456,7 @@ var Core = function (_UIObject) {
   Core.prototype.resolveOnContainersReady = function resolveOnContainersReady(containers) {
     var _this4 = this;
 
-    _clapprZepto2.default.when.apply(_clapprZepto2.default, containers).done(function () {
+    _fpZepto2.default.when.apply(_fpZepto2.default, containers).done(function () {
       _this4.defer.resolve(_this4);
       _this4.ready = true;
       _this4.trigger(_events2.default.CORE_READY);
@@ -31484,7 +31484,7 @@ var Core = function (_UIObject) {
     this.containers.forEach(function (container) {
       return container.destroy();
     });
-    this.containerFactory.options = _clapprZepto2.default.extend(this.options, { sources: sources });
+    this.containerFactory.options = _fpZepto2.default.extend(this.options, { sources: sources });
     this.prepareContainers();
   };
 
@@ -31497,9 +31497,9 @@ var Core = function (_UIObject) {
       return plugin.destroy();
     });
     this.$el.remove();
-    (0, _clapprZepto2.default)(document).unbind('fullscreenchange', this._boundFullscreenHandler);
-    (0, _clapprZepto2.default)(document).unbind('MSFullscreenChange', this._boundFullscreenHandler);
-    (0, _clapprZepto2.default)(document).unbind('mozfullscreenchange', this._boundFullscreenHandler);
+    (0, _fpZepto2.default)(document).unbind('fullscreenchange', this._boundFullscreenHandler);
+    (0, _fpZepto2.default)(document).unbind('MSFullscreenChange', this._boundFullscreenHandler);
+    (0, _fpZepto2.default)(document).unbind('mozfullscreenchange', this._boundFullscreenHandler);
     this.stopListening();
   };
 
@@ -31616,7 +31616,7 @@ var Core = function (_UIObject) {
   Core.prototype.configure = function configure(options) {
     var _this6 = this;
 
-    this._options = _clapprZepto2.default.extend(this._options, options);
+    this._options = _fpZepto2.default.extend(this._options, options);
     this.configureDomRecycler();
 
     var sources = options.source || options.sources;
@@ -31636,7 +31636,7 @@ var Core = function (_UIObject) {
   Core.prototype.render = function render() {
     if (!style) style = _styler2.default.getStyleFor(_fonts2.default, { baseUrl: this.options.baseUrl });
 
-    (0, _clapprZepto2.default)('head').append(style);
+    (0, _fpZepto2.default)('head').append(style);
 
     this.options.width = this.options.width || this.$el.width();
     this.options.height = this.options.height || this.$el.height();
@@ -31694,7 +31694,7 @@ module.exports = exports['default'];
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<%=baseUrl%>/38861cba61c66739c1452c3a71e39852.ttf";
+module.exports = "<%=baseUrl%>/fplayer.ttf";
 
 /***/ }),
 
@@ -31726,7 +31726,7 @@ exports.push([module.i, "@font-face {\n  font-family: \"Roboto\";\n  font-style:
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/postcss-loader/lib!../../../../node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./style.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/components/core/public/style.scss");
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/postcss-loader/lib!../../../../node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./style.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/components/core/public/style.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -32211,7 +32211,7 @@ var Loader = function (_BaseObject) {
    * builds the loader
    * @method constructor
    * @param {Object} externalPlugins the external plugins
-   * @param {Number} playerId you can embed multiple instances of clappr, therefore this is the unique id of each one.
+   * @param {Number} playerId you can embed multiple instances of fp, therefore this is the unique id of each one.
    */
   function Loader() {
     var externalPlugins = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
@@ -32469,9 +32469,9 @@ var _error_mixin = __webpack_require__(/*! ../base/error_mixin */ "./src/base/er
 
 var _error_mixin2 = _interopRequireDefault(_error_mixin);
 
-var _clapprZepto = __webpack_require__(/*! clappr-zepto */ "./node_modules/clappr-zepto/zepto.js");
+var _fpZepto = __webpack_require__(/*! fp-zepto */ "./node_modules/fp-zepto/zepto.js");
 
-var _clapprZepto2 = _interopRequireDefault(_clapprZepto);
+var _fpZepto2 = _interopRequireDefault(_fpZepto);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -32488,7 +32488,7 @@ var baseUrl = (0, _utils.currentScriptUrl)().replace(/\/[^/]+$/, '');
  * Add the following script on your HTML:
  * ```html
  * <head>
- *   <script type="text/javascript" src="http://cdn.clappr.io/latest/clappr.min.js"></script>
+ *   <script type="text/javascript" src="http://cdn.fp.io/latest/fp.min.js"></script>
  * </head>
  * ```
  * Now, create the player:
@@ -32496,7 +32496,7 @@ var baseUrl = (0, _utils.currentScriptUrl)().replace(/\/[^/]+$/, '');
  * <body>
  *   <div id="player"></div>
  *   <script>
- *     var player = new Clappr.Player({source: "http://your.video/here.mp4", parentId: "#player"});
+ *     var player = new fp.Player({source: "http://your.video/here.mp4", parentId: "#player"});
  *   </script>
  * </body>
  * ```
@@ -32628,7 +32628,7 @@ var Player = function (_BaseObject) {
      * You might pass the options object to build the player.
      * ```javascript
      * var options = {source: "http://example.com/video.mp4", param1: "val1"};
-     * var player = new Clappr.Player(options);
+     * var player = new fp.Player(options);
      * ```
      *
      * @method constructor
@@ -32722,13 +32722,13 @@ var Player = function (_BaseObject) {
     var defaultOptions = {
       playerId: (0, _utils.uniqueId)(''),
       persistConfig: true,
-      width: 640,
-      height: 360,
+      width: width,
+      height: height,
       baseUrl: baseUrl,
       allowUserInteraction: _browser2.default.isMobile,
       playback: playbackDefaultOptions
     };
-    _this._options = _clapprZepto2.default.extend(defaultOptions, options);
+    _this._options = _fpZepto2.default.extend(defaultOptions, options);
     _this.options.sources = _this._normalizeSources(options);
     if (!_this.options.chromeless) {
       // "allowUserInteraction" cannot be false if not in chromeless mode.
@@ -33460,9 +33460,9 @@ var _template = __webpack_require__(/*! ./base/template */ "./src/base/template.
 
 var _template2 = _interopRequireDefault(_template);
 
-var _clapprZepto = __webpack_require__(/*! clappr-zepto */ "./node_modules/clappr-zepto/zepto.js");
+var _fpZepto = __webpack_require__(/*! fp-zepto */ "./node_modules/fp-zepto/zepto.js");
 
-var _clapprZepto2 = _interopRequireDefault(_clapprZepto);
+var _fpZepto2 = _interopRequireDefault(_fpZepto);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -33508,7 +33508,7 @@ exports.default = {
   Vendor: _vendor2.default,
   version: version,
   template: _template2.default,
-  $: _clapprZepto2.default
+  $: _fpZepto2.default
 };
 module.exports = exports['default'];
 
@@ -33589,7 +33589,7 @@ var BaseFlashPlayback = function (_Playback) {
       baseUrl: this.baseUrl,
       playbackId: this.uniqueId,
       wmode: this.wmode,
-      callbackName: 'window.Clappr.flashlsCallbacks.' + this.cid }));
+      callbackName: 'window.fp.flashlsCallbacks.' + this.cid }));
 
     if (_browser2.default.isIE) {
       this.$('embed').remove();
@@ -33630,7 +33630,7 @@ var BaseFlashPlayback = function (_Playback) {
       if (_browser2.default.isLegacyIE) type = '';
 
       return {
-        class: 'clappr-flash-playback',
+        class: 'fp-flash-playback',
         type: type,
         width: '100%',
         height: '100%',
@@ -33684,7 +33684,7 @@ module.exports = "<param name=\"movie\" value=\"<%= swfPath %>\">\n<param name=\
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/postcss-loader/lib!../../../../node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./flash.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/playbacks/base_flash_playback/public/flash.scss");
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/postcss-loader/lib!../../../../node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./flash.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/playbacks/base_flash_playback/public/flash.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -33754,9 +33754,9 @@ var _template = __webpack_require__(/*! ../../base/template */ "./src/base/templ
 
 var _template2 = _interopRequireDefault(_template);
 
-var _clapprZepto = __webpack_require__(/*! clappr-zepto */ "./node_modules/clappr-zepto/zepto.js");
+var _fpZepto = __webpack_require__(/*! fp-zepto */ "./node_modules/fp-zepto/zepto.js");
 
-var _clapprZepto2 = _interopRequireDefault(_clapprZepto);
+var _fpZepto2 = _interopRequireDefault(_fpZepto);
 
 var _events = __webpack_require__(/*! ../../base/events */ "./src/base/events.js");
 
@@ -33848,7 +33848,7 @@ var Flash = function (_BaseFlashPlayback) {
         this._currentState = 'IDLE';
         this._autoPlay && this.play();
       }
-      (0, _clapprZepto2.default)('<div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%" />').insertAfter(this.$el);
+      (0, _fpZepto2.default)('<div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%" />').insertAfter(this.$el);
       if (this.getDuration() > 0) this._metadataLoaded();else _mediator2.default.once(this.uniqueId + ':timeupdate', this._metadataLoaded, this);
     } else {
       this._attempts = this._attempts || 0;
@@ -34071,7 +34071,7 @@ module.exports = exports['default'];
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<%=baseUrl%>/4b76590b32dab62bc95c1b7951efae78.swf";
+module.exports = "<%=baseUrl%>/fplayer.swf";
 
 /***/ }),
 
@@ -34141,9 +34141,9 @@ var _HLSPlayer = __webpack_require__(/*! ./public/HLSPlayer.swf */ "./src/playba
 
 var _HLSPlayer2 = _interopRequireDefault(_HLSPlayer);
 
-var _clapprZepto = __webpack_require__(/*! clappr-zepto */ "./node_modules/clappr-zepto/zepto.js");
+var _fpZepto = __webpack_require__(/*! fp-zepto */ "./node_modules/fp-zepto/zepto.js");
 
-var _clapprZepto2 = _interopRequireDefault(_clapprZepto);
+var _fpZepto2 = _interopRequireDefault(_fpZepto);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -34230,7 +34230,7 @@ var FlasHLS = function (_BaseFlashPlayback) {
       right: ['fullscreen', 'volume', 'hd-indicator'],
       seekEnabled: false
     };
-    _this.settings = _clapprZepto2.default.extend({}, _this._defaultSettings);
+    _this.settings = _fpZepto2.default.extend({}, _this._defaultSettings);
     _this._playbackType = _playback2.default.LIVE;
     _this._hasEnded = false;
     _this._addListeners();
@@ -34834,7 +34834,7 @@ var FlasHLS = function (_BaseFlashPlayback) {
   };
 
   FlasHLS.prototype._updateSettings = function _updateSettings() {
-    this.settings = _clapprZepto2.default.extend({}, this._defaultSettings);
+    this.settings = _fpZepto2.default.extend({}, this._defaultSettings);
     if (this._playbackType === _playback2.default.VOD || this._dvrInUse) {
       this.settings.left = ['playpause', 'position', 'duration'];
       this.settings.seekEnabled = true;
@@ -34849,12 +34849,12 @@ var FlasHLS = function (_BaseFlashPlayback) {
   FlasHLS.prototype._createCallbacks = function _createCallbacks() {
     var _this6 = this;
 
-    if (!window.Clappr) window.Clappr = {};
+    if (!window.fp) window.fp = {};
 
-    if (!window.Clappr.flashlsCallbacks) window.Clappr.flashlsCallbacks = {};
+    if (!window.fp.flashlsCallbacks) window.fp.flashlsCallbacks = {};
 
     this.flashlsEvents = new _flashls_events2.default(this.cid);
-    window.Clappr.flashlsCallbacks[this.cid] = function (eventName, args) {
+    window.fp.flashlsCallbacks[this.cid] = function (eventName, args) {
       _this6.flashlsEvents[eventName].apply(_this6.flashlsEvents, args);
     };
   };
@@ -35025,7 +35025,7 @@ module.exports = exports['default'];
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<%=baseUrl%>/8fa12a459188502b9f0d39b8a67d9e6c.swf";
+module.exports = "<%=baseUrl%>/fplayer-play.swf";
 
 /***/ }),
 
@@ -35352,7 +35352,7 @@ var HLS = function (_HTML5VideoPlayback) {
   };
   // the duration on the video element itself should not be used
   // as this does not necesarily represent the duration of the stream
-  // https://github.com/clappr/clappr/issues/668#issuecomment-157036678
+  // https://github.com/fp/fp/issues/668#issuecomment-157036678
 
 
   HLS.prototype.getDuration = function getDuration() {
@@ -35980,9 +35980,9 @@ var _log = __webpack_require__(/*! ../../plugins/log */ "./src/plugins/log/index
 
 var _log2 = _interopRequireDefault(_log);
 
-var _clapprZepto = __webpack_require__(/*! clappr-zepto */ "./node_modules/clappr-zepto/zepto.js");
+var _fpZepto = __webpack_require__(/*! fp-zepto */ "./node_modules/fp-zepto/zepto.js");
 
-var _clapprZepto2 = _interopRequireDefault(_clapprZepto);
+var _fpZepto2 = _interopRequireDefault(_fpZepto);
 
 var _template = __webpack_require__(/*! ../../base/template */ "./src/base/template.js");
 
@@ -36132,7 +36132,7 @@ var HTML5Video = function (_Playback) {
       if (typeof _this.options.poster === 'string') posterUrl = _this.options.poster;else if (typeof _this.options.poster.url === 'string') posterUrl = _this.options.poster.url;
     }
 
-    _clapprZepto2.default.extend(_this.el, {
+    _fpZepto2.default.extend(_this.el, {
       muted: _this.options.mute,
       defaultMuted: _this.options.mute,
       loop: _this.options.loop,
@@ -36171,7 +36171,7 @@ var HTML5Video = function (_Playback) {
     this.canAutoPlay(function (result, error) {
       error && _log2.default.warn(_this2.name, 'autoplay error.', { result: result, error: error });
 
-      // https://github.com/clappr/clappr/issues/1076
+      // https://github.com/fp/fp/issues/1076
       result && process.nextTick(function () {
         return !_this2._destroyed && _this2.play();
       });
@@ -36700,7 +36700,7 @@ module.exports = exports['default'];
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/postcss-loader/lib!../../../../node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./style.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/playbacks/html5_video/public/style.scss");
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/postcss-loader/lib!../../../../node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./style.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/playbacks/html5_video/public/style.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -36882,7 +36882,7 @@ module.exports = exports['default'];
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/postcss-loader/lib!../../../../node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./style.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/playbacks/html_img/public/style.scss");
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/postcss-loader/lib!../../../../node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./style.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/playbacks/html_img/public/style.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -37115,7 +37115,7 @@ module.exports = "<canvas data-no-op-canvas></canvas>\n<p data-no-op-msg><%=mess
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/postcss-loader/lib!../../../../node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./style.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/playbacks/no_op/public/style.scss");
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/postcss-loader/lib!../../../../node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./style.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/playbacks/no_op/public/style.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -37488,7 +37488,7 @@ module.exports = "<button type=\"button\" class=\"cc-button media-control-button
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/postcss-loader/lib!../../../../node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./closed_captions.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/plugins/closed_captions/public/closed_captions.scss");
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/postcss-loader/lib!../../../../node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./closed_captions.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/plugins/closed_captions/public/closed_captions.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -37709,7 +37709,7 @@ module.exports = exports['default'];
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/postcss-loader/lib!../../../../node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./dvr_controls.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/plugins/dvr_controls/public/dvr_controls.scss");
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/postcss-loader/lib!../../../../node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./dvr_controls.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/plugins/dvr_controls/public/dvr_controls.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -38037,7 +38037,7 @@ module.exports = "<div class=\"player-error-screen__content\" data-error-screen>
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/postcss-loader/lib!../../../../node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./error_screen.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/plugins/error_screen/public/error_screen.scss");
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/postcss-loader/lib!../../../../node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./error_screen.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/plugins/error_screen/public/error_screen.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -38097,15 +38097,15 @@ var _events = __webpack_require__(/*! ../../base/events */ "./src/base/events.js
 
 var _events2 = _interopRequireDefault(_events);
 
-var _clapprZepto = __webpack_require__(/*! clappr-zepto */ "./node_modules/clappr-zepto/zepto.js");
+var _fpZepto = __webpack_require__(/*! fp-zepto */ "./node_modules/fp-zepto/zepto.js");
 
-var _clapprZepto2 = _interopRequireDefault(_clapprZepto);
+var _fpZepto2 = _interopRequireDefault(_fpZepto);
 
 var _utils = __webpack_require__(/*! ../../base/utils */ "./src/base/utils.js");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var oldIcon = (0, _clapprZepto2.default)('link[rel="shortcut icon"]');
+var oldIcon = (0, _fpZepto2.default)('link[rel="shortcut icon"]');
 
 var Favicon = function (_CorePlugin) {
   (0, _inherits3.default)(Favicon, _CorePlugin);
@@ -38171,15 +38171,15 @@ var Favicon = function (_CorePlugin) {
   };
 
   Favicon.prototype.createIcon = function createIcon(svg) {
-    var canvas = (0, _clapprZepto2.default)('<canvas/>');
+    var canvas = (0, _fpZepto2.default)('<canvas/>');
     canvas[0].width = 16;
     canvas[0].height = 16;
     var ctx = canvas[0].getContext('2d');
     ctx.fillStyle = '#000';
-    var d = (0, _clapprZepto2.default)(svg).find('path').attr('d');
+    var d = (0, _fpZepto2.default)(svg).find('path').attr('d');
     var path = new Path2D(d);
     ctx.fill(path);
-    var icon = (0, _clapprZepto2.default)('<link rel="shortcut icon" type="image/png"/>');
+    var icon = (0, _fpZepto2.default)('<link rel="shortcut icon" type="image/png"/>');
     icon.attr('href', canvas[0].toDataURL('image/png'));
     return icon;
   };
@@ -38197,14 +38197,14 @@ var Favicon = function (_CorePlugin) {
   };
 
   Favicon.prototype.resetIcon = function resetIcon() {
-    (0, _clapprZepto2.default)('link[rel="shortcut icon"]').remove();
-    (0, _clapprZepto2.default)('head').append(this.oldIcon);
+    (0, _fpZepto2.default)('link[rel="shortcut icon"]').remove();
+    (0, _fpZepto2.default)('head').append(this.oldIcon);
   };
 
   Favicon.prototype.changeIcon = function changeIcon(icon) {
     if (icon) {
-      (0, _clapprZepto2.default)('link[rel="shortcut icon"]').remove();
-      (0, _clapprZepto2.default)('head').append(icon);
+      (0, _fpZepto2.default)('link[rel="shortcut icon"]').remove();
+      (0, _fpZepto2.default)('head').append(icon);
     }
   };
 
@@ -38301,7 +38301,7 @@ var GoogleAnalytics = function (_ContainerPlugin) {
 
     if (_this.container.options.gaAccount) {
       _this.account = _this.container.options.gaAccount;
-      _this.trackerName = _this.container.options.gaTrackerName ? _this.container.options.gaTrackerName + '.' : 'Clappr.';
+      _this.trackerName = _this.container.options.gaTrackerName ? _this.container.options.gaTrackerName + '.' : 'fp.';
       _this.domainName = _this.container.options.gaDomainName;
       _this.currentHDState = undefined;
       _this.embedScript();
@@ -38558,7 +38558,7 @@ var Log = function () {
       this.level = this.offLevel;
     }
     // handle instances where console.log is unavailable
-    if (window.console && window.console.log) window.console.log('%c[Clappr.Log] set log level to ' + DESCRIPTIONS[this.level], WARN);
+    if (window.console && window.console.log) window.console.log('%c[fp.Log] set log level to ' + DESCRIPTIONS[this.level], WARN);
   };
 
   Log.prototype.level = function level(newLevel) {
@@ -38707,9 +38707,9 @@ var _playback = __webpack_require__(/*! ../../base/playback */ "./src/base/playb
 
 var _playback2 = _interopRequireDefault(_playback);
 
-var _clapprZepto = __webpack_require__(/*! clappr-zepto */ "./node_modules/clappr-zepto/zepto.js");
+var _fpZepto = __webpack_require__(/*! fp-zepto */ "./node_modules/fp-zepto/zepto.js");
 
-var _clapprZepto2 = _interopRequireDefault(_clapprZepto);
+var _fpZepto2 = _interopRequireDefault(_fpZepto);
 
 __webpack_require__(/*! ./public/media-control.scss */ "./src/plugins/media_control/public/media-control.scss");
 
@@ -38835,7 +38835,7 @@ var MediaControl = function (_UICorePlugin) {
     _this.bindKeyEvents();
 
     if (_this.container) {
-      if (!_clapprZepto2.default.isEmptyObject(_this.container.settings)) _this.settings = _clapprZepto2.default.extend({}, _this.container.settings);
+      if (!_fpZepto2.default.isEmptyObject(_this.container.settings)) _this.settings = _fpZepto2.default.extend({}, _this.container.settings);
     } else {
       _this.settings = {};
     }
@@ -38849,11 +38849,11 @@ var MediaControl = function (_UICorePlugin) {
     _this.updateDragHandler = function (event) {
       return _this.updateDrag(event);
     };
-    (0, _clapprZepto2.default)(document).bind('mouseup', _this.stopDragHandler);
-    (0, _clapprZepto2.default)(document).bind('mousemove', _this.updateDragHandler);
+    (0, _fpZepto2.default)(document).bind('mouseup', _this.stopDragHandler);
+    (0, _fpZepto2.default)(document).bind('mousemove', _this.updateDragHandler);
     
-    (0, _clapprZepto2.default)(document).bind('touchend', _this.stopDragHandler);
-    (0, _clapprZepto2.default)(document).bind('touchmove', _this.updateDragHandler);
+    (0, _fpZepto2.default)(document).bind('touchend', _this.stopDragHandler);
+    (0, _fpZepto2.default)(document).bind('touchmove', _this.updateDragHandler);
     //这里添加事件
     
     return _this;
@@ -38946,7 +38946,7 @@ var MediaControl = function (_UICorePlugin) {
   MediaControl.prototype.onLoadedMetadataOnVideoTag = function onLoadedMetadataOnVideoTag() {
     var video = this.playback && this.playback.el;
     // video.webkitSupportsFullscreen is deprecated but iOS appears to only use this
-    // see https://github.com/clappr/clappr/issues/1127
+    // see https://github.com/fp/fp/issues/1127
     if (!_utils.Fullscreen.fullscreenEnabled() && video.webkitSupportsFullscreen) {
       this.fullScreenOnVideoTagSupported = true;
       this.settingsUpdate();
@@ -39288,7 +39288,9 @@ var MediaControl = function (_UICorePlugin) {
 	      }, timeout);
       }else{
       	//隐藏位置
-      	_this6.hide();
+      	if (event && !this.isPC) {
+      		_this6.hide();
+      	}
       }
       
       if (event) {
@@ -39299,7 +39301,22 @@ var MediaControl = function (_UICorePlugin) {
     var showing = true;
     this.updateCursorStyle(showing);
   };
-
+  
+  //判断是手机还电脑
+  MediaControl.prototype.isPC = (function(){
+  	var userAgentInfo = navigator.userAgent;
+    var Agents = ["Android", "iPhone",
+                "SymbianOS", "Windows Phone",
+                "iPad", "iPod"];
+    var flag = true;
+    for (var v = 0; v < Agents.length; v++) {
+        if (userAgentInfo.indexOf(Agents[v]) > 0) {
+            flag = false;
+            break;
+        }
+    }
+    return flag;
+  })();
   MediaControl.prototype.hide = function hide() {
     var _this7 = this;
 
@@ -39348,7 +39365,7 @@ var MediaControl = function (_UICorePlugin) {
   };
 
   MediaControl.prototype.getSettings = function getSettings() {
-    return _clapprZepto2.default.extend(true, {}, this.container && this.container.settings);
+    return _fpZepto2.default.extend(true, {}, this.container && this.container.settings);
   };
 
   MediaControl.prototype.highDefinitionUpdate = function highDefinitionUpdate(isHD) {
@@ -39488,12 +39505,12 @@ var MediaControl = function (_UICorePlugin) {
   };
 
   MediaControl.prototype.applyButtonStyle = function applyButtonStyle(element) {
-    this.buttonsColor && element && (0, _clapprZepto2.default)(element).find('svg path').css('fill', this.buttonsColor);
+    this.buttonsColor && element && (0, _fpZepto2.default)(element).find('svg path').css('fill', this.buttonsColor);
   };
 
   MediaControl.prototype.destroy = function destroy() {
-    (0, _clapprZepto2.default)(document).unbind('mouseup', this.stopDragHandler);
-    (0, _clapprZepto2.default)(document).unbind('mousemove', this.updateDragHandler);
+    (0, _fpZepto2.default)(document).unbind('mouseup', this.stopDragHandler);
+    (0, _fpZepto2.default)(document).unbind('mousemove', this.updateDragHandler);
     this.unbindKeyEvents();
     this.stopListening();
     _UICorePlugin.prototype.destroy.call(this);
@@ -39585,7 +39602,7 @@ module.exports = exports['default'];
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<%=baseUrl%>/a8c874b93b3d848f39a71260c57e3863.cur";
+module.exports = "<%=baseUrl%>/fplayer.cur";
 
 /***/ }),
 
@@ -39608,7 +39625,7 @@ module.exports = "<div class=\"media-control-background\" data-background></div>
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/postcss-loader/lib!../../../../node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./media-control.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/plugins/media_control/public/media-control.scss");
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/postcss-loader/lib!../../../../node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./media-control.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/plugins/media_control/public/media-control.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -39919,7 +39936,7 @@ module.exports = "<div class=\"play-wrapper\" data-poster></div>\n";
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/postcss-loader/lib!../../../../node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./poster.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/plugins/poster/public/poster.scss");
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/postcss-loader/lib!../../../../node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./poster.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/plugins/poster/public/poster.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -39985,7 +40002,7 @@ module.exports = "<span data-seek-time></span>\n<span data-duration></span>\n";
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/postcss-loader/lib!../../../../node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./seek_time.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/plugins/seek_time/public/seek_time.scss");
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/postcss-loader/lib!../../../../node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./seek_time.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/plugins/seek_time/public/seek_time.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -40383,7 +40400,7 @@ module.exports = "<div data-bounce1></div><div data-bounce2></div><div data-boun
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/postcss-loader/lib!../../../../node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./spinner.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/plugins/spinner_three_bounce/public/spinner.scss");
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/postcss-loader/lib!../../../../node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./spinner.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/plugins/spinner_three_bounce/public/spinner.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -40598,9 +40615,9 @@ var _events = __webpack_require__(/*! ../../base/events */ "./src/base/events.js
 
 var _events2 = _interopRequireDefault(_events);
 
-var _clapprZepto = __webpack_require__(/*! clappr-zepto */ "./node_modules/clappr-zepto/zepto.js");
+var _fpZepto = __webpack_require__(/*! fp-zepto */ "./node_modules/fp-zepto/zepto.js");
 
-var _clapprZepto2 = _interopRequireDefault(_clapprZepto);
+var _fpZepto2 = _interopRequireDefault(_fpZepto);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -40692,7 +40709,7 @@ var StatsPlugin = function (_ContainerPlugin) {
   };
 
   StatsPlugin.prototype.onStatsAdd = function onStatsAdd(metric) {
-    _clapprZepto2.default.extend(this.externalMetrics, metric);
+    _fpZepto2.default.extend(this.externalMetrics, metric);
   };
 
   StatsPlugin.prototype.getStats = function getStats() {
@@ -40702,7 +40719,7 @@ var StatsPlugin = function (_ContainerPlugin) {
       rebufferingTime: this.isRebuffering() ? this.rebufferingTime + this.getRebufferingTime() : this.rebufferingTime,
       watchingTime: this.isRebuffering() ? this.getWatchingTime() - this.getRebufferingTime() : this.getWatchingTime()
     };
-    _clapprZepto2.default.extend(metrics, this.externalMetrics);
+    _fpZepto2.default.extend(metrics, this.externalMetrics);
     return metrics;
   };
 
@@ -40752,9 +40769,9 @@ var _inherits3 = _interopRequireDefault(_inherits2);
 
 var _utils = __webpack_require__(/*! ../base/utils */ "./src/base/utils.js");
 
-var _clapprZepto = __webpack_require__(/*! clappr-zepto */ "./node_modules/clappr-zepto/zepto.js");
+var _fpZepto = __webpack_require__(/*! fp-zepto */ "./node_modules/fp-zepto/zepto.js");
 
-var _clapprZepto2 = _interopRequireDefault(_clapprZepto);
+var _fpZepto2 = _interopRequireDefault(_fpZepto);
 
 var _core_plugin = __webpack_require__(/*! ../base/core_plugin */ "./src/base/core_plugin.js");
 
@@ -40865,7 +40882,7 @@ var Strings = function (_CorePlugin) {
       }
     };
 
-    this._messages = _clapprZepto2.default.extend(true, defaultMessages, this.core.options.strings || {});
+    this._messages = _fpZepto2.default.extend(true, defaultMessages, this.core.options.strings || {});
     this._messages['pt-BR'] = this._messages['pt'];
     this._messages['en-US'] = this._messages['en'];
     this._messages['es-419'] = this._messages['es'];
@@ -40915,7 +40932,7 @@ module.exports = exports['default'];
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"clappr-watermark\" data-watermark data-watermark-<%=position %>>\n<% if(typeof imageLink !== 'undefined') { %>\n<a target=_blank href=\"<%= imageLink %>\">\n<% } %>\n<img src=\"<%= imageUrl %>\">\n<% if(typeof imageLink !== 'undefined') { %>\n</a>\n<% } %>\n</div>\n";
+module.exports = "<div class=\"fp-watermark\" data-watermark data-watermark-<%=position %>>\n<% if(typeof imageLink !== 'undefined') { %>\n<a target=_blank href=\"<%= imageLink %>\">\n<% } %>\n<img src=\"<%= imageUrl %>\">\n<% if(typeof imageLink !== 'undefined') { %>\n</a>\n<% } %>\n</div>\n";
 
 /***/ }),
 
@@ -40927,7 +40944,7 @@ module.exports = "<div class=\"clappr-watermark\" data-watermark data-watermark-
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/postcss-loader/lib!../../../../node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./watermark.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/clappr/src/base/scss!./src/plugins/watermark/public/watermark.scss");
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader!../../../../node_modules/postcss-loader/lib!../../../../node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./watermark.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js?includePaths[]=/Users/joaopaulo/Workstation/JS/fp/src/base/scss!./src/plugins/watermark/public/watermark.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -41403,4 +41420,4 @@ module.exports = exports['default'];
 
 /******/ });
 });
-//# sourceMappingURL=clappr.js.map
+//# sourceMappingURL=fp.js.map
